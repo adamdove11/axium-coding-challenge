@@ -52,12 +52,14 @@ nav {
 	width: 100%;
 	font-size: 1.4rem;
 	text-align: center;
+	color: #385C68;
 }
 
 .main-navigation li {
 	list-style: none;
 	display: inline-block;
 	padding: 0 0.5rem 0 1rem;
+	color: #385C68;
 }
 
 .main-navigation li:after {
@@ -65,18 +67,39 @@ nav {
 	padding: 1rem;
 }
 
-.caret:before {
-  content: '';
-  position: absolute;
-  border-top: 12px solid #999;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
+.product-overview {
+	background-image: url('images/topsection-background.png');
+	color: white;
+	padding: 0 15% 0 15%;
+	overflow: auto;
 }
 
-.caret:after {
-  content: '';
-  position: absolute;
-  border-top: 11px solid #fff;
-  border-left: 11px solid transparent;
-  border-right: 11px solid transparent;
+.product-overview h1 {
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+.overview-photo {
+	float: left;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 2rem;
+	overflow: auto;
+}
+
+.product-details {
+	float: left;
+	padding: 0 2rem 0 2rem;
+}
+
+.product-details ul {
+	list-style: none;
+	list-style-type: none;
+	line-height: 200%;
+	text-transform: uppercase;
+	padding: 0;
+	font-weight: 100;
+	font-size: 0.9rem;
 }
