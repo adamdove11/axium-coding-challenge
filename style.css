@@ -103,3 +103,23 @@ nav {
 	font-weight: 100;
 	font-size: 0.9rem;
 }
+
+.description {
+	background-color: #898989;
+	padding: 0 25% 0 15%;
+	overflow: auto;
+}
+
+.description-photo {
+	width: 470px;
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+}
+
+.description-copy{
+	color: white;
+	font-weight: 300;
+	line-height: 150%;
+	padding-left: 10px;
+}
