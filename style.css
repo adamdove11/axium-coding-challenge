@@ -115,6 +115,7 @@ nav {
 	display: inline-block;
 	float: left;
 	padding-right: 10px;
+	padding-top: 20px;
 }
 
 .description-copy{
@@ -122,4 +123,48 @@ nav {
 	font-weight: 300;
 	line-height: 150%;
 	padding-left: 10px;
+}
+
+.description p {
+	padding-left: 470px;
+}
+
+.reviews {
+	background-color: #00314D;
+	padding: 0 15% 0 15%;
+	color: white;
+}
+
+.reviews h1 {
+	font-weight: 100;
+	display: inline-block;
+	font-size: 250%;
+	padding-right: 50px;
+	padding-left: 150px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.review h2 {
+	display: inline-block;
+	margin: 0;
+}
+
+.review p {
+	padding-left: 150px;
+	font-weight: 100;
+	font-size: 90%;
+}
+
+.img-reviewer {
+	float: left;
+	border: 1px solid white;
+	margin-right: 30px;
+}
+
+.link {
+	text-decoration: underline;
+	font-weight: 100;
 }
